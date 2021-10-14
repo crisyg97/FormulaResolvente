@@ -14,6 +14,9 @@ int main(){
 	scanf("%f", &b);
 	printf("ingrese el valor de c = ");
 	scanf("%f", &c);
+	printf(" valor a = %f",a);
+	printf(" valor b = %f",b);
+	printf("valor c = %f \n",c);
 
 	//llamado a la funcion externa de asm
 	formulaResolvente(a,b,c);

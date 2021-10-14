@@ -18,7 +18,6 @@ section .text
 
 global formulaResolvente
 formulaResolvente:
-    mov ebp, esp; for correct debugging
     push ebp ;enter
     mov ebp,esp
     ;carga de parametros
